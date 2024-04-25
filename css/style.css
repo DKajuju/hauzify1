@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(76, 204, 204);
+}
+
+.properties_list h3 {
+    color: red;
+}
+
+#properties_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
