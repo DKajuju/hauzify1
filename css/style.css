@@ -1,5 +1,19 @@
-body{
-    background-color: rgb(76, 204, 204);
+<Style>
+
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(images/istockphoto-1352173615-612x612 (1).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    width: 200px;
+    height: 100vh;
+
 }
 
 .properties_list h3 {
@@ -12,3 +26,5 @@ body{
     gap: 20px;
 
 }
+
+</Style>

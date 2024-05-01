@@ -9,19 +9,65 @@
 </head>
 
 <body>
+
+    <div class="background-image"> 
+        
+        <h3>
+            Find a Rental House Near You
+        </h3>
+    </div>
+
     <div class="input ">
         <button id="google-login-btn" class="google-button">
             <i class="fab fa-google"></i>Login with Google
         </button>
     </div>
+
     <h1>
-        List of Properties
+        Rent  Sale 
     </h1>
+
+    <form >
+               
+
+        <label for="Location"> Enter a Location:</label>
+        <input type="text" name="Location" id="Location" placeholder="Location">
+        <select name="Location" id="Location">
+            <option value="Locale1">Westlands</option>
+            <option value="Locale2">Kilimani</option>
+            <option value="Locale3">Upperhill</option>
+            <option value="Locale4">Lavington</option>
+            <option value="Locale5">Runda</option>
+        </select>
+
+        <br><br>
+        <label for="Category"> Category:</label>
+        <input type="text" name="Category" id="Category" placeholder=" Category">
+        <select name="" id="">
+            <option value="Category">Houses</option>
+            <option value="Category">Apartments</option>
+            <option value="Category">Commercial Property</option>
+            <option value="Category">Land</option>
+        </select>
+        
+        <br><br>
+        <label for="Price">Price:</label>
+        <input type="text" name="Price" id="Price" placeholder="Price">
+        <br><br>
+    
+    </form>
+
  
     <div class="container">
         <ul id="properties_list">
         </ul>
     </div>
+
+    <div class="container ">
+            <ul id = "Options">
+            </ul>
+        </div>
+       
     <script src="js/init.js"></script>
     <script type="module" src="js/login.js"></script>
 
