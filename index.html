@@ -4,17 +4,209 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HouseHunt Realty-Find your dream house</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <div class="background-image"> 
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+
         
-        <h3>
-            Find a Rental House Near You
-        </h3>
+
+        <div class="header-top">
+            <div class="container">
+                <ul class="header-top-list">
+
+                    <div class="wrapper">
+                        <ul class="header-top-social-list">
+                            <li>
+                                <a href="#" class="header-top-social-list">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="header-top-social-list">
+                                    <ion-icon name="logo-twitter"></ion-icon>
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a href="#" class="header-top-social-list">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="header-top-social-list">
+                                    <ion-icon name="logo-pinterest"></ion-icon>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <button class="header-top-button">
+                        Add Listing
+                    </button>
+                    <li>
+                        <a href="mailto:info@househunt.com" class="header-top-link">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <span> info@househunt.com</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="mailto:info@househunt.com" class="header-top-link">
+                            <ion-icon name="location-outline"></ion-icon>
+                            <address> Westlands, Westside Towers 10th Floor</address>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+
+                <a href="#" class="logo">
+                    <img src="./images/ICONS/2.jpg" alt="HouseHunt Logo">
+                </a>
+
+                <nav class="navbar" data-navbar>
+
+                    <div class="navbar-top">
+
+                        <a href="#" class="logo">
+                            <img src="./images/ICONS/2.jpg " alt="HouseHunt Logo">
+                        </a>
+
+                        <button class="nav-close-btn"> <data-nav-close-btn aria-label="close Menu">
+                                <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+
+
+                    </div>
+
+                    <div class="navbar-bottom">
+                        <ul class="navbar-list">
+
+                            <li>
+                                <a href="#Home" class="navbar-link">Home</a>
+                            </li>
+
+
+                            <li>
+                                <a href="#home" class="navbar-link">About</a>
+                            </li>
+
+                            
+                            <li>
+                                <a href="#service" class="navbar-link">Service</a>
+                            </li>
+
+                            
+                            <li>
+                                <a href="#property" class="navbar-link">Property</a>
+                            </li>
+
+                            
+                            <li>
+                                <a href="#contact" class="navbar-link">Contact</a>
+                            </li>
+
+                        
+                        </ul>
+
+                    </div>
+
+                </nav>
+
+                <div class="header-bottom-actions">
+
+                    <button class="header-bottom-actions-btn" aria-label="Search">
+                        <ion-icon name="search-outline"></ion-icon>
+
+                        <span>Search</span>
+
+                    </button>
+
+                    <button class="header-bottom-actions-btn" aria-label="Profile">
+                        <ion-icon name="Profile-outline"></ion-icon>
+
+                        <span>Profile</span>
+
+                    </button>
+
+                    <button class="header-bottom-actions-btn" aria-label="Open Menu">
+                        <ion-icon name="Menu-outline"></ion-icon>
+
+                        <span>Open Menu</span>
+
+                    </button>
+
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <h4> HouseHunt Realty </h4>
+
+    <div class="background-image">
+        <form>
+            <br>
+            <h3>
+                Find Your Perfect Home Near You
+            </h3>
+            <br>
+
+            <label for="Location"> Enter a Location:</label>
+            <input type="text" name="Location" id="Location" placeholder="Location">
+            <select name="Location" id="Location">
+                <option value="Locale1">Westlands</option>
+                <option value="Locale2">Kilimani</option>
+                <option value="Locale3">Upperhill</option>
+                <option value="Locale4">Lavington</option>
+                <option value="Locale5">Runda</option>
+            </select>
+
+            <br><br>
+            <label for="Category"> Category:</label>
+            <input type="text" name="Category" id="Category" placeholder=" Category">
+            <select name="" id="">
+                <option value="Category">Houses</option>
+                <option value="Category">Apartments</option>
+                <option value="Category">Commercial Property</option>
+                <option value="Category">Land</option>
+            </select>
+
+            <br><br>
+            <label for="Price">Price:</label>
+            <input type="text" name="Price" id="Price" placeholder="Price">
+            <br><br>
+
+        </form>
+
+
+
     </div>
 
     <div class="input ">
@@ -24,50 +216,19 @@
     </div>
 
     <h1>
-        Rent  Sale 
+        Rent Sale
     </h1>
 
-    <form >
-               
-
-        <label for="Location"> Enter a Location:</label>
-        <input type="text" name="Location" id="Location" placeholder="Location">
-        <select name="Location" id="Location">
-            <option value="Locale1">Westlands</option>
-            <option value="Locale2">Kilimani</option>
-            <option value="Locale3">Upperhill</option>
-            <option value="Locale4">Lavington</option>
-            <option value="Locale5">Runda</option>
-        </select>
-
-        <br><br>
-        <label for="Category"> Category:</label>
-        <input type="text" name="Category" id="Category" placeholder=" Category">
-        <select name="" id="">
-            <option value="Category">Houses</option>
-            <option value="Category">Apartments</option>
-            <option value="Category">Commercial Property</option>
-            <option value="Category">Land</option>
-        </select>
-        
-        <br><br>
-        <label for="Price">Price:</label>
-        <input type="text" name="Price" id="Price" placeholder="Price">
-        <br><br>
-    
-    </form>
-
- 
     <div class="container">
         <ul id="properties_list">
         </ul>
     </div>
 
     <div class="container ">
-            <ul id = "Options">
-            </ul>
-        </div>
-       
+        <ul id="Options">
+        </ul>
+    </div>
+
     <script src="js/init.js"></script>
     <script type="module" src="js/login.js"></script>
 
